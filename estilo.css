@@ -55,6 +55,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh; /* Garante que o corpo ocupe toda a tela */ 
+    backdrop-filter: blur(15px); /* Aplica o desfoque */
 }
 
 .menu{
@@ -64,4 +65,20 @@ body{
     align-items: center; /* Espaçamento entre os itens */
     padding: 31px 72px;  /* Espaçamento interno */
     color: white;
+    width: 500px; /* Define uma largura menor */
 }
+ 
+.esquerda{
+    width: 400px; /* Define uma largura menor */
+    padding: 20px; /* Dá um espaçamento interno */
+    text-align: justify; /* Mantém o texto justificado */
+    position: relative;
+    top: 73px;
+    left: 60px;
+    color: white;
+}
+
+.texto{
+    margin-bottom: 200px; /* Espaço entre os itens na vertical */
+}
+
