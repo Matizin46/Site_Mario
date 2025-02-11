@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,22 +65,72 @@ body{
     display: flex; /* Organiza os itens em linha */
     gap: 50px; /* Espaçamento entre os itens */
     align-items: center; /* Espaçamento entre os itens */
-    padding: 31px 72px;  /* Espaçamento interno */
+    padding: 31px 90px;  /* Espaçamento interno */
     color: white;
     width: 500px; /* Define uma largura menor */
 }
  
-.esquerda{
-    width: 400px; /* Define uma largura menor */
-    padding: 20px; /* Dá um espaçamento interno */
-    text-align: justify; /* Mantém o texto justificado */
-    position: relative;
-    top: 73px;
-    left: 60px;
+
+.logo{
+    width: 100%;
+    max-width: 250px;
+    padding-left: 90px;
+    padding-top: 73px;
+
+}
+
+.p{
+    width: 483px;
+    font-size:  16px;
+    line-height: 24px;
+    margin-top: 28px;
+    color: #FFFFFF;
+    padding-left: 90px;
+    font-family: "Open Sans";
+    text-align: justify;
+}
+
+.trailer-btn, .tickets-btn {
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: "Open Sans";
+
+}
+
+.trailer-btn {
+    background: #AB2323;
     color: white;
+    margin-right: 10px;
+}
+ 
+.tickets-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
-.texto{
-    margin-bottom: 200px; /* Espaço entre os itens na vertical */
+.botoes{
+    margin-top: 60px;
+    margin-left: 90px;
 }
 
+.mario_luid{
+    position: absolute;
+    right: 120px;
+    bottom: 120px;
+}
+
+.insta{
+    position: absolute;
+    right: 200px;
+    bottom: 700px;
+    left: 550px;
+}
+
+.fac{
+    position: absolute;
+    right: 140px;
+    bottom: 700px;
+}
