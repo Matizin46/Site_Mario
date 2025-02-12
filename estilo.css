@@ -68,6 +68,7 @@ body{
     padding: 31px 90px;  /* Espaçamento interno */
     color: white;
     width: 500px; /* Define uma largura menor */
+    justify-content: space-between;
 }
  
 
@@ -122,17 +123,11 @@ body{
     bottom: 120px;
 }
 
-.insta{
-    position: absolute;
-    right: 200px;
-    bottom: 700px;
-    left: 550px;
-}
-
-.fac{
-    position: absolute;
-    right: 140px;
-    bottom: 700px;
+.redes{
+    display: flex;  /* Ativa o Flexbox */
+    justify-content: flex-end; /* Move o container para a direita */
+    gap: 20px; /* Define um espaço de 20px entre os itens */
+    margin-right: 90px;
 }
 
 .redes{
