@@ -134,3 +134,13 @@ body{
     right: 140px;
     bottom: 700px;
 }
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    gap: 20px;
+}
